@@ -1,19 +1,49 @@
 aid: voxeet
 name: Voxeet
-description: Voxeet is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Voxeet was a San Francisco-based startup that built spatial-audio voice
+  and video conferencing APIs and SDKs for web and mobile applications, backed by
+  500 Global. Dolby Laboratories acquired Voxeet in 2019 and rebranded its technology
+  as the Dolby.io Communications APIs and SDKs. That surface has since been retired --
+  the voxeet GitHub org archived all 88 repositories on 2024-08-30 and the Dolby.io
+  Communications documentation now redirects to Dolby OptiView. This profile preserves
+  the historical record; see the dolby and dolby-io profiles for the successor platform.
 url: https://raw.githubusercontent.com/api-evangelist/voxeet/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://avatars.githubusercontent.com/u/18720732?v=4
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-acquired-by: dolby
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 5
+  pass: local-v1
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Conferencing
+- Voice
+- Video
+- WebRTC
+- Spatial Audio
+- Communications
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +53,15 @@ maintainers:
 common:
 - type: Website
   url: https://voxeet.com
+- type: GitHubOrganization
+  url: https://github.com/voxeet
+- type: Packages
+  url: packages/voxeet-packages.yml
+- type: SDKs
+  url: packages/voxeet-packages.yml
+- type: Lifecycle
+  url: lifecycle/voxeet-lifecycle.yml
+- type: LLMsTxt
+  url: llms/voxeet-llms.txt
+- type: DomainSecurity
+  url: security/voxeet-domain-security.yml

@@ -1,0 +1,20 @@
+generated: '2026-07-21'
+method: searched
+host: https://voxeet.com
+note: >-
+  voxeet.com sits behind a Cloudflare managed challenge (cf-mitigated: challenge) that
+  returns HTTP 403 to every automated request, so no well-known documents could be
+  retrieved. No 200 responses; no raw files saved. Recorded honestly as probe results.
+documents:
+- path: /.well-known/security.txt
+  status: 403
+- path: /.well-known/openid-configuration
+  status: 403
+- path: /.well-known/oauth-authorization-server
+  status: 403
+- path: /.well-known/api-catalog
+  status: 403
+- path: /.well-known/ai-plugin.json
+  status: 403
+- path: /llms.txt
+  status: 403

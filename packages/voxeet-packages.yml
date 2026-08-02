@@ -1,0 +1,54 @@
+generated: '2026-07-21'
+method: searched
+source: https://www.npmjs.com/search?q=voxeet + https://cocoapods.org/pods/VoxeetSDK + https://github.com/voxeet
+note: >-
+  Voxeet was acquired by Dolby Laboratories in 2019 and its SDKs were rebranded as the
+  Dolby.io Communications SDKs. All packages below are real, published first-party
+  libraries, but the platform has been retired: the voxeet GitHub org archived every
+  repository on 2024-08-30 and the last npm publish was 2024-03-01. Captured for the
+  historical record; none are recommended for new development.
+packages:
+- language: javascript
+  registry: npm
+  name: '@voxeet/voxeet-web-sdk'
+  url: https://www.npmjs.com/package/@voxeet/voxeet-web-sdk
+  install: npm install @voxeet/voxeet-web-sdk
+  official: true
+  latest_version: 3.11.1
+  last_published: '2024-03-01'
+  status: retired
+- language: javascript
+  registry: npm
+  name: '@voxeet/react-components'
+  url: https://www.npmjs.com/package/@voxeet/react-components
+  install: npm install @voxeet/react-components
+  official: true
+  latest_version: 3.7.0
+  last_published: '2022-09-29'
+  status: retired
+- language: swift
+  registry: cocoapods
+  name: VoxeetSDK
+  url: https://cocoapods.org/pods/VoxeetSDK
+  install: pod 'VoxeetSDK'
+  official: true
+  first_published: '2016-05-03'
+  status: retired
+- language: javascript
+  registry: npm
+  name: '@voxeet/react-native-voxeet-conferencekit'
+  url: https://www.npmjs.com/package/@voxeet/react-native-voxeet-conferencekit
+  install: npm install @voxeet/react-native-voxeet-conferencekit
+  official: true
+  latest_version: 0.5.0
+  last_published: '2023-04-25'
+  status: retired
+- language: javascript
+  registry: npm
+  name: cordova-plugin-voxeet
+  url: https://www.npmjs.com/package/cordova-plugin-voxeet
+  install: cordova plugin add cordova-plugin-voxeet
+  official: false
+  latest_version: 1.5.9
+  last_published: '2022-12-07'
+  status: retired

@@ -1,0 +1,24 @@
+# Voxeet
+
+> Voxeet built spatial-audio voice and video conferencing APIs and SDKs. The company was acquired by Dolby Laboratories in 2019 and its technology became the Dolby.io Communications APIs. That platform has since been retired: the voxeet GitHub org archived all repositories on 2024-08-30 and the Dolby.io Communications documentation now redirects to Dolby OptiView. This profile is maintained by API Evangelist as a historical record.
+
+Voxeet no longer operates an independent API surface. For the successor platform see Dolby (dolby.io / Dolby OptiView).
+
+## Company
+
+- [Website](https://voxeet.com): Corporate site (currently gated behind a Cloudflare challenge)
+- [GitHub organization](https://github.com/voxeet): 88 archived repositories — Voxeet and Dolby.io Communications SDKs and samples
+- [Successor platform](https://dolby.io): Dolby developer platform
+
+## SDKs (retired)
+
+- [@voxeet/voxeet-web-sdk](https://www.npmjs.com/package/@voxeet/voxeet-web-sdk): JavaScript/Web SDK, last published 2024-03-01
+- [@voxeet/react-components](https://www.npmjs.com/package/@voxeet/react-components): React video-call components
+- [VoxeetSDK on CocoaPods](https://cocoapods.org/pods/VoxeetSDK): iOS SDK
+- [@voxeet/react-native-voxeet-conferencekit](https://www.npmjs.com/package/@voxeet/react-native-voxeet-conferencekit): React Native conferencing kit
+
+## Artifacts
+
+- [apis.yml](https://raw.githubusercontent.com/api-evangelist/voxeet/refs/heads/main/apis.yml): APIs.json profile for Voxeet
+- [Packages](https://raw.githubusercontent.com/api-evangelist/voxeet/refs/heads/main/packages/voxeet-packages.yml): First-party package inventory (retired)
+- [Lifecycle](https://raw.githubusercontent.com/api-evangelist/voxeet/refs/heads/main/lifecycle/voxeet-lifecycle.yml): Acquisition and retirement record

@@ -1,0 +1,42 @@
+generated: '2026-07-21'
+method: searched
+source: https://github.com/voxeet + https://docs.dolby.io/communications-apis/docs/overview-policy-product-end-of-life + npm registry
+status: retired
+summary: >-
+  Voxeet (spatial-audio voice and video conferencing APIs/SDKs) was acquired by Dolby
+  Laboratories in 2019. Its technology was rebranded as the Dolby.io Communications
+  APIs and SDKs. The surface has since been retired: every repository in the voxeet
+  GitHub org was archived on 2024-08-30, the last first-party npm publish
+  (@voxeet/voxeet-web-sdk 3.11.1) was 2024-03-01, and the Dolby.io Communications
+  documentation (docs.dolby.io/communications-apis) now 301-redirects to
+  optiview.dolby.com/docs. The GitHub org description reads "Visit dolby.io to
+  explore our new streaming services." The corporate website voxeet.com remains
+  registered but is gated behind a Cloudflare challenge.
+acquisition:
+  acquirer: Dolby Laboratories
+  year: 2019
+  successor_platform: https://dolby.io
+  successor_repos:
+  - all/dolby
+  - all/dolby-io
+evidence:
+- fact: all 88 voxeet GitHub org repositories archived
+  date: '2024-08-30'
+  source: https://api.github.com/orgs/voxeet/repos
+- fact: last npm publish of @voxeet/voxeet-web-sdk (3.11.1)
+  date: '2024-03-01'
+  source: https://registry.npmjs.org/@voxeet/voxeet-web-sdk
+- fact: docs.dolby.io/communications-apis 301-redirects to optiview.dolby.com/docs
+  date: '2026-07-21'
+  source: https://docs.dolby.io/communications-apis/docs/overview-policy-product-end-of-life
+- fact: GitHub org description points users to dolby.io
+  date: '2026-07-21'
+  source: https://api.github.com/orgs/voxeet
+versioning: null
+deprecation:
+  policy_url: null
+  note: Dolby published a 12-month deprecation-notice policy for Communications SDKs
+    while the platform was live; the policy pages themselves now redirect away.
+sla: null
+status_page: null
+deprecated_operations: []
