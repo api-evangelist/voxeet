@@ -8,6 +8,17 @@ description: Voxeet was a San Francisco-based startup that built spatial-audio v
   Communications documentation now redirects to Dolby OptiView. This profile preserves
   the historical record; see the dolby and dolby-io profiles for the successor platform.
 url: https://raw.githubusercontent.com/api-evangelist/voxeet/refs/heads/main/apis.yml
+deliveryModel:
+  model: library
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Library · distributed through package registries, no callable service
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
